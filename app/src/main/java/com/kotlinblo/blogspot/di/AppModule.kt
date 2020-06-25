@@ -2,9 +2,8 @@ package com.kotlinblo.blogspot.di
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import com.kotlinblo.blogspot.db.RuningDatabase
-import com.kotlinblo.blogspot.other.RUNNING_DATABASE_NAME
+import com.kotlinblo.blogspot.util.RUNNING_DATABASE_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
